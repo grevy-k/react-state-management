@@ -277,3 +277,6 @@ import TaskManager from "./components/TaskManager";
 ...
 ```
 ### Note: You need to import the context Provider and wrap it around your app
+---
+
+

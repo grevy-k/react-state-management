@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.light {
+  background-color: #ffffff;
+  color: #000000;
+  border-bottom: 1px solid #dddddd;
+}
+
+.dark {
+  background-color: #242629;
+  color: #ffffff;
+  border-bottom: 1px solid #3a3d41;
+}
+
+.brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.toggleButton {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #1e90ff;
+}
+
+.dark .toggleButton {
+  background-color: #85d1b0;
+  color: #242629;
+}
